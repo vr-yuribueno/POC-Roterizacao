@@ -16,7 +16,8 @@ class OpenStreet extends StatefulWidget {
 }
 
 class _OpenStreetState extends State<OpenStreet> {
-  static const String mapboxAccessToken = '';
+  static const String mapboxAccessToken =
+      'pk.eyJ1IjoieWJ1ZW5vMTYiLCJhIjoiY204bjA4azh1MXFqcTJqbXVnamFvdHd1cCJ9.VIYLZ5OeG74e_s21d4sOyw';
   static const String mapboxGeocodingUrl =
       'https://api.mapbox.com/geocoding/v5/mapbox.places';
 
